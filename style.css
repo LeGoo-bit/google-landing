@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffff;
+    font-family: sans-serif;
+}
+.vertical{
+    width: 100%;
+    border-top:1px solid gainsboro;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 18px;
+    font-size: 13px;
+}
+.head-nav{
+    display: flex;
+    align-items: center;
+    
+}
+.head-nav-img{
+    width: 30px;
+    margin-left: 10px;
+}
+.head-nav-img:hover{
+    box-shadow: 0px 0px 10px 0px gainsboro;
+}
+section{
+    margin-top: 110px;
+}
+section h1{
+    text-align: center;
+    font-size: 90px;
+    font-weight: normal;
+}
+.searchbar{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 400px;
+    background-color: #ffff;
+    width: 100%;
+    max-width: 650px;
+    padding: 8px 0px 8px 0px;
+    border-radius: 30px;
+    border: 1px solid gainsboro;
+    
+}
+.searchbar:hover{
+    box-shadow: 0px 0px 10px 0px gainsboro;
+}
+.searchbar img{
+    width: 20px;
+    margin: auto;
+}
+.searchbar input{
+    padding: 8px 400px 8px 10px;
+    border: none;
+    outline: none;
+}
+#last-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+.card{
+    height: 70px;
+    width: 70px;
+    margin:0px ;
+    
+}
+.card-content{
+    text-align: center;
+    color: black;
+    font-size: 8px;
+    padding-top: 10px;
+    
+}
+
+.card-content img{
+    width: 20px;
+    border-radius: 0px;
+}
+.card-content h2{
+    padding-top: 10px; 
+}
+
+.positioning{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    margin: 12px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: #0c1721;
+    padding: 5px 20px 5px 20px;
+    color: #9da2fe;
+}
+.positioning img{
+    width: 14px;
+    height: 17px;
+    background: #9da2fe;
+
+}
+.positioning h3{
+    font-size: 12px;
+    font-weight: normal;
+}
+.positioning-img{
+    margin-left: 10px;
+}
+
+
+
